@@ -3,10 +3,10 @@
    Menú móvil, scroll suave, animaciones, validación y WhatsApp.
    ========================================================= */
 
-// Cambia este número por el WhatsApp real de Mosqiter.
+// Cambia este número por el WhatsApp real de Mosqitor.
 // Formato recomendado: prefijo país + número, sin espacios ni símbolos.
 const WHATSAPP_NUMBER = "34600000000";
-const WHATSAPP_MESSAGE = "Hola, quiero pedir información sobre Mosqiter para mi negocio.";
+const WHATSAPP_MESSAGE = "Hola, quiero pedir información sobre Mosqitor para mi negocio.";
 
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
@@ -145,7 +145,7 @@ contactForm.addEventListener("submit", (event) => {
   const message = formData.get("message");
 
   // Al no usar backend, abrimos WhatsApp con los datos del formulario.
-  const whatsappText = `Hola, quiero pedir información sobre Mosqiter.
+  const whatsappText = `Hola, quiero pedir información sobre Mosqitor.
 
 Nombre: ${name}
 Negocio: ${business}
